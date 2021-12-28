@@ -1,6 +1,11 @@
-import React from 'react';
+import React from 'react'
+//import { BncClient } from "@binance-chain/javascript-sdk"
 
-const Home = () => <h1>Hello World!</h1>
-
-export default Home;
-
+export default function Home() {
+    console.log('teste')
+    return (
+        <div>
+            <h1>Hello World</h1>
+        </div>
+    )
+}
